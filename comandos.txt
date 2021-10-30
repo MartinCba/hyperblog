@@ -1,0 +1,30 @@
+Comandos básicos en la terminal:
+
+pwd: Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
+
+mkdir: Nos permite crear czrpetas (por ejemplo, mkdir Carpeta-Importante).
+
+touch: Nos permite crear archivos (por ejemplo, touch archivo.txt).
+
+rm: Nos permite borrar un archivo o carpeta (por ejemplo, rm archivo.txt). Mucho cuidado con este comando, puedes borrar todo tu disco duro.
+
+cat: Ver el contenido de un archivo y lo muestra por consola(por ejemplo, cat nombre-archivo.txt).
+
+ls: Nos permite ver los archivos de la carpeta donde estamos ahora mismo. Podemos usar uno o más argumentos para ver más información sobre estos archivos (los argumentos pueden ser -- + el nombre del argumento o - + una sola letra o shorcut por cada argumento).
+-ls - a: Mostrar todos los archivos, incluso los ocultos.
+-ls -l: Ver todos los archivos de una lista.
+
+cd: Nos permite navegar entre carpetas.
+-cd /: Ir a la ruta principal.
+-cd o cd ~: Ir a la ruta de tu usuario.
+-cd carpeta/subcarpeta: Navegar a una ruta dentro de la carpeta donde estamos ahora mismo.
+-cd .. (cd + dos puntos): Regresar una capeta hacia atras.
+-Si quieres referirte al directorio en el que te encuentras ahora mismo puedes usar cd . (cd + un punto).
+
+history: Ver los últimos comandos que ejecutamos y un numero especial con el que podemos repetir su ejecución.
+! + número: Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
+
+clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctrl + L.
+Todos estos comandos tienen una función de autocompletado, o sea, puedes escribir la primera parte y presionar la tecla Tab para que la terminal nos muestre todas las posibles carpetas o comandos que podemos ejecutar. Si presionamos la tecla arriba puedes ver el último comando que ejecutamos.
+
+Recuerda que podemos descubrir todos los argumentos de un comando con el argumento --help (por ejemplo, cat --help).
